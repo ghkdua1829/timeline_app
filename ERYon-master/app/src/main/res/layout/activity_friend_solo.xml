@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="닉네임"
+        android:textSize="30dp"/>
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+    <Button
+        android:background="@drawable/teduri"
+        android:id="@+id/relationship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="나와의 관계"/>
+    <com.baoyz.widget.PullRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pull">
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/friendsolo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+    </com.baoyz.widget.PullRefreshLayout>
+</LinearLayout>

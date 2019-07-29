@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/profileimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+    <Button
+        android:id="@+id/gotoalbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사진등록"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/new_Name"
+        android:hint="이름을 입력하시오." />
+    <Button
+        android:text="회원가입 요청"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit" />
+</LinearLayout>

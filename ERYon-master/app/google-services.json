@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "158250797414",
+    "firebase_url": "https://eryon-b4bde.firebaseio.com",
+    "project_id": "eryon-b4bde",
+    "storage_bucket": "eryon-b4bde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158250797414:android:f336bdd16361ba83",
+        "android_client_info": {
+          "package_name": "com.app.eryon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158250797414-2r6ciu9csvro0me6b9mj2n7dhguv9qlf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0kMNGySQEG7z2xFQQ6TOuBYo1lEltzAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158250797414-2r6ciu9csvro0me6b9mj2n7dhguv9qlf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
