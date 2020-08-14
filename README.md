@@ -1,15 +1,15 @@
-# timeline_app
+# 📒 timeline_app
 타임라인 어플입니다.
 
-## Tech Stack
+## 🛠 Tech Stack
 JAVA, PHP, MYSQL
 
-## Description
+## 📝 Description
 1. PHP 를 통한 Mysql과 JAVA 연동
 2. Android Studio 사용
 3. 웹 호스팅 서비스 (dothome)을 이용하여 자체 서버 구축
 
-## ScreenShot
+## 🖼 ScreenShot
 
 <div>
 <img width="250" src="./image/login.png">
@@ -22,7 +22,7 @@ JAVA, PHP, MYSQL
 <img width="250" src="./image/dat.png">
 </div>
 
-## MainFunction
+## ⚙️ MainFunction
 
 1.회원가입,로그인
 - php를 이용해서 android 와 mysql을 연동
@@ -61,5 +61,5 @@ JAVA, PHP, MYSQL
 - 댓글 창에는 댓글을 작성한 유저의 이름과 이미지,내용 등이 포함
 
 
-## Developer
+## 👨‍💻 Developer
 - 김찬영(client,server)
